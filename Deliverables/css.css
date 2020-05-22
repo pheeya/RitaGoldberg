@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.sections_holder {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+}
+.sections_holder .sections {
+  padding: 20px;
+  box-shadow: 0 0 25px 10px rgba(128, 128, 128, 0.199);
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  border-radius: 3px;
+}
+.sections_holder .sections .section {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sections_holder .sections .section .menu_holder .title {
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(179, 179, 179, 0.075);
+  margin: 20px 0;
+}
+.sections_holder .sections .section .menu_holder .stamps .stamp {
+  background-color: #ffd255;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 5px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.sections_holder .sections .section .menu_holder .stamps .stamp .stamp_title {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: #ff9a60;
+  padding: 10px;
+  width: 200px;
+  border-radius: 3px;
+}
+.sections_holder .sections .section .menu_holder .stamps .stamp .stamp_info {
+  background-color: #ff9a60;
+  border-radius: 3px;
+  color: #ffefd2;
+  padding: 10px;
+}
+.sections_holder .sections .section .menu_holder .stamps .stamp:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 5px rgba(255, 227, 136, 0.753);
+}
+.sections_holder .sections .video_section .video_holder .title {
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(179, 179, 179, 0.062);
+  margin: 20px 0;
+}
+.sections_holder .sections .video_section .video_holder .video_inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sections_holder .sections .video_section .video_holder .video_inner .video {
+  position: relative;
+}
+.sections_holder .sections .video_section .video_holder .video_inner .video video {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: 3px solid #ffeaa6;
+}
+
+@media (max-width: 900px) {
+  .sections_holder .sections {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+}
+
+/*# sourceMappingURL=css.css.map */
